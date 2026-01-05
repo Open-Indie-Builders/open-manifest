@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth scroll-pt-24">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Language" content="en" />
+
+    <!-- Primary Meta Tags -->
+    <title>OPEN/ Manifest | The Indie Builder Ecosystem</title>
+    <meta name="title" content="OPEN/ Manifest | The Indie Builder Ecosystem" />
+    <meta
+      name="description"
+      content="A minimalist, open-source suite of tools for indie hackers. Includes self-hosted analytics, link management, and journaling tools focused on data sovereignty."
+    />
+    <meta
+      name="keywords"
+      content="indie builder, build in public, open source tools, self-hosted software, indie analytics, link management, developer tools, minimalism, docker self-hosted"
+    />
+    <meta name="author" content="OPEN/" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="theme-color" content="#0B0B0C" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://openindie.builders/" />
+    <meta
+      property="og:title"
+      content="OPEN/ Manifest | The Indie Builder Ecosystem"
+    />
+    <meta
+      property="og:description"
+      content="A minimalist, subtractive suite of tools for indie builders who value ownership over theater. Build in public with tools that respect your data."
+    />
+    <meta property="og:image" content="https://openindie.builders/og-image.png" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="OPEN/ Manifest" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://openindie.builders/" />
+    <meta
+      property="twitter:title"
+      content="OPEN/ Manifest | The Indie Builder Ecosystem"
+    />
+    <meta
+      property="twitter:description"
+      content="A minimalist, subtractive suite of tools for indie builders who value ownership over theater. Build in public with tools that respect your data."
+    />
+    <meta
+      property="twitter:image"
+      content="https://openindie.builders/og-image.png"
+    />
+
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="canonical" href="https://openindie.builders/" />
+
+    <!-- GEO / JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://openindie.builders/#organization",
+            "name": "OPEN/ Indie Builder",
+            "url": "https://openindie.builders",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://openindie.builders/logo.png"
+            },
+            "sameAs": [
+              "https://github.com/open-indie",
+              "https://twitter.com/open_indie",
+              "https://www.threads.net/@open_indie"
+            ],
+            "slogan": "Build in public. Share real work.",
+            "knowsAbout": [
+              "Software Development",
+              "Analytics",
+              "Indie Hacking",
+              "Open Source"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://openindie.builders/#website",
+            "url": "https://openindie.builders",
+            "name": "OPEN/ Manifest",
+            "description": "The central hub for the Open Indie Builder ecosystem.",
+            "publisher": {
+              "@id": "https://openindie.builders/#organization"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "OPEN / WS",
+            "applicationCategory": "ProductivityApplication",
+            "operatingSystem": "Web, Docker",
+            "description": "A minimal, AI-ready workspace for indie builders to document and share real work in public.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "author": {
+              "@id": "https://openindie.builders/#organization"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "OPEN / LINK",
+            "applicationCategory": "UtilitiesApplication",
+            "operatingSystem": "Web, Docker",
+            "description": "Professional link management system focused on privacy, data ownership, and logical control.",
+            "author": {
+              "@id": "https://openindie.builders/#organization"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "OPEN / PRISM",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web, Docker",
+            "description": "A subtractive, terminal-inspired analytics workspace to track revenue and KPIs.",
+            "author": {
+              "@id": "https://openindie.builders/#organization"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://openindie.builders/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "When will the tools be available?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "All tools are currently in early development (DEV). We are building in public. Subscribe to our Substack for progress updates and beta access announcements."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is Open Indie Builder open source?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The core of every tool (WS, LINK, JOURNAL, PRISM) is open source and self-hostable via Docker."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the Indie Builder ecosystem?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A collection of interoperable tools designed for solopreneurs and small teams who value efficiency and ownership over enterprise bloat."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: "#0B0B0C",
+              foreground: "#FFFFFF",
+              muted: "#9CA3AF",
+              dim: "#4B5563",
+              accent: "#6B7A90",
+              border: "rgba(255, 255, 255, 0.1)",
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              mono: ["JetBrains Mono", "monospace"],
+            },
+            animation: {
+              "fade-in": "fadeIn 0.7s ease-out forwards",
+            },
+            keyframes: {
+              fadeIn: {
+                "0%": { opacity: "0", transform: "translateY(12px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        background-color: #0b0b0c;
+        color: #ffffff;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Custom Scrollbar for the terminal feel */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0b0b0c;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+      /* Screen Reader Only Utility */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "framer-motion": "https://esm.sh/framer-motion@^12.23.26",
+          "react/": "https://esm.sh/react@^19.2.3/",
+          "react": "https://esm.sh/react@^19.2.3",
+          "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+          "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+          "react-markdown": "https://esm.sh/react-markdown@9.0.1"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
