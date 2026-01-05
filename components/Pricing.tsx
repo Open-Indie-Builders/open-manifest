@@ -26,7 +26,7 @@ export const Pricing: React.FC = () => {
           <ul className="space-y-3 mb-8 flex-1 opacity-60 group-hover:opacity-100 transition-opacity">
             <li className="flex items-start gap-3 text-sm text-muted">
               <Check className="w-4 h-4 text-emerald-500 mt-0.5" />
-              <span>Full data sovereignty</span>
+              <span>Full data control</span>
             </li>
             <li className="flex items-start gap-3 text-sm text-muted">
               <Check className="w-4 h-4 text-emerald-500 mt-0.5" />
@@ -40,7 +40,7 @@ export const Pricing: React.FC = () => {
 
           <div className="mt-auto opacity-60 group-hover:opacity-100 transition-opacity">
              <div className="text-2xl font-light mb-4">$0 <span className="text-sm text-dim">/ forever</span></div>
-             <Button variant="secondary" href="https://github.com/open-indie">GITHUB</Button>
+             {/* <Button variant="secondary" href="https://github.com/open-indie">GITHUB</Button> */}
           </div>
         </div>
 
@@ -56,7 +56,7 @@ export const Pricing: React.FC = () => {
             <p className="text-sm text-dim font-mono">MANAGED_INSTANCE</p>
           </div>
           
-          <ul className="space-y-3 mb-8 flex-1 opacity-60 group-hover:opacity-100 transition-opacity">
+          {/* <ul className="space-y-3 mb-8 flex-1 opacity-60 group-hover:opacity-100 transition-opacity">
              <li className="flex items-start gap-3 text-sm text-gray-300">
               <Check className="w-4 h-4 text-white mt-0.5" />
               <span>Instant deployment</span>
@@ -69,12 +69,12 @@ export const Pricing: React.FC = () => {
               <Check className="w-4 h-4 text-white mt-0.5" />
               <span>Priority support</span>
             </li>
-          </ul>
+          </ul> */}
 
-           <div className="mt-auto opacity-60 group-hover:opacity-100 transition-opacity">
+           {/* <div className="mt-auto opacity-60 group-hover:opacity-100 transition-opacity">
              <div className="text-2xl font-light mb-4">$29 <span className="text-sm text-dim">/ mo</span></div>
              <Button>INITIALIZE</Button>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -91,7 +91,7 @@ export const Pricing: React.FC = () => {
           </p>
         </div>
         <div className="shrink-0">
-          <Button href="https://substack.com">SUBSCRIBE TO UPDATES</Button>
+          <Button href="https://substack.com/@federico832344?utm_campaign=profile&utm_medium=profile-page" target="_blank" rel="noopener noreferrer">SUBSCRIBE TO UPDATES</Button>
         </div>
       </div>
     </Section>

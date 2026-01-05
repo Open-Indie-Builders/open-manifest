@@ -7,7 +7,7 @@ export const TOOLS: Tool[] = [
     description:
       "A minimal, AI-ready documentation workspace designed for indie builders to share progress, track daily work, and build in public without performance bloat.",
     status: "DEV",
-    url: "#ws-landing",
+    //url: "#ws-landing",
   },
   {
     id: "link",
@@ -15,7 +15,7 @@ export const TOOLS: Tool[] = [
     description:
       "A professional self-hosted link management system that prioritizes data sovereignty and privacy over marketing analytics.",
     status: "DEV",
-    url: "#link-landing",
+    //url: "#link-landing",
   },
   {
     id: "journal",
@@ -23,7 +23,7 @@ export const TOOLS: Tool[] = [
     description:
       "A minimalist changelog generator and project journal that uses AI to transform raw updates into public-facing documentation.",
     status: "DEV",
-    url: "#journal-landing",
+    //url: "#journal-landing",
   },
   {
     id: "prism",
@@ -31,7 +31,7 @@ export const TOOLS: Tool[] = [
     description:
       "A terminal-inspired analytics workspace for tracking revenue, MRR, and KPIs across multiple projects with a focus on raw data.",
     status: "DEV",
-    url: "#prism-landing",
+    //url: "#prism-landing",
   },
 ];
 

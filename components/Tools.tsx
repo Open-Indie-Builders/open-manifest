@@ -36,11 +36,11 @@ export const Tools: React.FC = () => {
               </div>
               
               <div className="pt-2 md:pt-0 shrink-0">
-                <Button href={tool.url}>
+                {tool.url && <Button href={tool.url}>
                   <span className="flex items-center gap-1">
                     DEPLOY <ArrowUpRight className="w-3 h-3" />
                   </span>
-                </Button>
+                </Button>}
               </div>
             </div>
           </div>

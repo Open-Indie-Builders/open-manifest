@@ -3,7 +3,7 @@ export interface Tool {
   name: string;
   description: string;
   status: 'LIVE' | 'BETA' | 'DEV';
-  url: string;
+  url?: string;
 }
 
 export interface FAQItem {

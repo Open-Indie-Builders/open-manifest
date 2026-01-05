@@ -4,9 +4,11 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
   variant?: 'primary' | 'secondary';
   href?: string;
+  target?: string;
+  rel?: string;
 }
 
-export const Button: React.FC<ButtonProps> = ({ children, variant = 'primary', href, className = '', ...props }) => {
+export const Button: React.FC<ButtonProps> = ({ children, variant = 'primary', href, className = '', target, rel, ...props }) => {
   // Changed inline-block to inline-flex items-center to keep brackets aligned with content
   const baseStyles = "font-mono text-sm tracking-wide transition-colors duration-200 focus:outline-none group inline-flex items-center whitespace-nowrap";
   
@@ -28,7 +30,7 @@ export const Button: React.FC<ButtonProps> = ({ children, variant = 'primary', h
 
   if (href) {
     return (
-      <a href={href} className={combinedClasses}>
+      <a href={href} className={combinedClasses} target={target} rel={rel}>
         {content}
       </a>
     );
